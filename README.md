@@ -1,7 +1,22 @@
 # Romance Emotional Support - Agentic Skill
 
 This repository provides an advanced prompt/skill architecture designed for AI Agents to handle romantic relationship issues and provide emotional support. It acts as the user's **eternal external emotional brain**, stepping in to process psychological nuances when the user's emotional battery is depleted and they are forced to run purely on logic.
+---
 
+### 🚨 CRITICAL HUMAN WARNING: READ BEFORE USING 🚨
+
+> **ATTENTION HUMAN USERS:** 
+> This skill or your llm (AI) is an **EMERGENCY EMOTIONAL AIRBAG**, not a daily driver. 
+> 
+> 🚫 **DO NOT** use this to copy-paste your way out of a relationship problem. Your partner is not an NPC, and you are (hopefully) not a robot. If you outsource your daily affection to an LLM, the "uncanny valley" effect *will* kick in, and you will be single again.
+> 
+> 🚫 **DO NOT** make consulting this agent your daily hobby. If you need an AI to tell you how to be a decent partner every single day, no amount of prompt engineering can save you. Go touch grass. Or at least go to therapy.
+> 
+> ✅ **DO** use this strictly in **CRITICAL CONDITIONS**: when your emotional battery is at 1%, your brain has defaulted to "Vulcan logic mode", and you are exactly 3 seconds away from saying something that will trigger a 3-day silent treatment. 
+> 
+> *Use this skill to buy yourself time to process, NOT to outsource your entire personality.*
+
+---
 ## Why This Exists?
 
 Standard AI chatbots often act like "friends" when discussing relationships, which inadvertently increases *sycophancy* (agreeing with distorted facts just to please the user). They may also jump straight to problem-solving, recommend breakups as a default, or provide generic motivation.
