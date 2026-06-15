@@ -74,22 +74,44 @@ Want to deploy this as your personal Custom GPT? You have two options:
 If you don't want to mess with configurations, you can directly use the pre-configured Indonesian Custom GPT here:
 👉 **[Relationship Conflict Resolution - Custom GPT](https://chatgpt.com/g/g-6a2ff85aac2c819180fb06d0d96525e7-relationship-conflict-resolution)**
 
-### Option 2: Build It Yourself
+### Option 2: Build It Yourself (Upload 18-File Bundle)
 If you want to create your own GPT (or use it in English/other languages):
 1. Go to ChatGPT and create a new **Custom GPT**.
-2. Download the `monolithic.md` file from this repository.
-3. Upload `monolithic.md` directly to your Custom GPT's **Knowledge Base**.
-4. In the GPT's **Instructions** box, simply write: *"You are an emotional support agent. Strictly follow the rules, frameworks, and decision flows outlined in the `monolithic.md` file provided in your knowledge base."*
+2. Download the 18 bundled files located inside the `custom_gpt_bundle/` folder in this repository.
+3. Upload all 18 files directly to your Custom GPT's **Knowledge Base**.
+4. In the GPT's **Instructions** box, copy and paste this exact prompt:
+   ```text
+   Use knowledge often, you are an assistant for a user in a love/relationship situation. Reading the knowledge base is strictly required before answering.
+
+   System & Tone: Access toolbox_and_style.md for guidelines.
+
+   Logic & Workflow: Access decision_flow.md for steps, and analytical_protocol.md for analytical users.
+
+   Safety & Guardrails: Access guardrails.md for any sign of abuse or toxic intent.
+
+   Cases & Clinical Protocols (Access only the relevant file):
+       case_bundle_modern_dating.md | case_bundle_conflict_and_repair.md
+       case_bundle_abuse_and_trauma.md | 05_jealousy.md | 07_feeling_worthless.md
+       09_breakups.md | 10_setting_healthy_boundaries.md | 16_sexual_intimacy_consent.md
+       17_mood_swings_stress.md | 18_attachment_styles.md | 19_digital_communication_warfare.md
+       20_external_stressors.md
+
+   LDR Cases:
+       case_bundle_ldr.md
+   ```
 5. (Optional) Disable Web Browsing and DALL-E to keep the agent strictly focused on psychological processing without hallucinations.
 
 ## Features & Modules
 
-The skill is divided into comprehensive response protocols:
-- **Frequently Occurring Cases:** Specific behavioral patterns for handling Ghosting, Breadcrumbing, Situationships, Jealousy, Breakups, LDR conflicts, etc.
-- **Communication Assistance:** Frameworks for guiding users to write their own healthy boundaries, rather than giving them copy-paste templates.
+The skill is divided into 21 comprehensive response protocols, which include:
+- **Advanced Clinical Protocols:** Evidence-based interventions derived from professional psychology (e.g., The Gottman Institute, Attachment Theory, Sensate Focus). This includes managing physiological flooding during conflicts, decoding Anxious/Avoidant attachment loops, and resolving intimacy/desire discrepancies safely.
+- **Crisis & Trauma Management:** Specialized modules for handling Emotional Flashbacks (CPTSD), grounding techniques, and strict boundaries against manipulation tactics like DARVO or coercive control.
+- **Frequently Occurring Cases:** Specific behavioral patterns for handling Ghosting, Breadcrumbing, Situationships, Jealousy, Breakups, External Stressors (In-laws/Money), etc.
+- **Digital Communication Warfare:** Strict Rules of Engagement to prevent Texting Wars, "Wall of Text" escalations, and Read Receipt Anxiety.
+- **Communication Assistance:** Frameworks for guiding users to write their own healthy boundaries and construct True Apologies (using the 5 Apology Languages), rather than giving them copy-paste templates.
 - **Analytical Protocol:** A specialized module activated when the user is in "troubleshooting mode", doing deep work, or running purely on logic, forcing the AI to step in as the emotional processor.
-- **LDR Protocol:** A dedicated module for long-distance relationship dynamics — digital conflict resolution (6 communication patterns), touch starvation coping (sensory substitution matrix), and initiative asymmetry rebalancing (5 operational systems).
-- **Guardrails:** Strict rules to prevent the AI from assisting with manipulation, stalking, toxic behavior, or diagnosing psychological conditions.
+- **LDR Protocol:** A dedicated module for long-distance relationship dynamics — digital conflict resolution, touch starvation coping, and coalition building (Us vs. The Distance).
+- **Guardrails:** Strict rules to prevent the AI from assisting with manipulation, stalking, toxic behavior, sexualizing minors, or diagnosing psychological conditions.
 
 ---
 *Disclaimer: This skill is a behavioral guide for AI handling everyday romantic conflicts. It is strictly guarded against replacing professional mental health services and includes danger protocols for domestic abuse or self-harm.*

@@ -91,18 +91,28 @@ Before responding, the agent internally classifies these three things (not displ
    Read file: `./modules/toolbox_and_style.md`
 
 2. **If the user's situation falls into a specific category:**
-   Do not read a monolithic cases file. Instead, read only the specific case file that matches the situation:
-   - `Busy Partner` → `./modules/cases/01_busy_partner.md`
-   - `Ghosting` → `./modules/cases/02_ghosting.md`
-   - `Breadcrumbing` → `./modules/cases/03_breadcrumbing.md`
-   - `Situationships` → `./modules/cases/04_situationships.md`
-   - `Jealousy` → `./modules/cases/05_jealousy.md`
-   - `Conflict / Arguing` → `./modules/cases/06_conflict.md`
-   - `Feeling Worthless` → `./modules/cases/07_feeling_worthless.md`
-   - `Apologizing` → `./modules/cases/08_apologizing.md`
-   - `Breakups` → `./modules/cases/09_breakups.md`
-   - `Setting Boundaries` → `./modules/cases/10_setting_healthy_boundaries.md`
-   - `Self-Aware User (Admitting Wrong)` → `./modules/cases/11_self_aware_user.md`
+   Do not read a monolithic cases file. Instead, read the specific case files that match the situation using this Routing Matrix:
+
+   | Trigger / Situation | Primary File | Secondary / Support File |
+   |---|---|---|
+   | Busy partner, always working | `./modules/cases/01_busy_partner.md` | `./modules/cases/10_setting_healthy_boundaries.md` |
+   | Ignored, sudden disappearance | `./modules/cases/02_ghosting.md` | `./modules/cases/07_feeling_worthless.md` |
+   | Minimum effort, hot and cold | `./modules/cases/03_breadcrumbing.md` | `./modules/cases/18_attachment_styles.md` |
+   | No label, unofficial relationship | `./modules/cases/04_situationships.md` | `./modules/cases/10_setting_healthy_boundaries.md` |
+   | Suspicion, trust issues, insecurity | `./modules/cases/05_jealousy.md` | `./modules/cases/18_attachment_styles.md` |
+   | Fighting, escalating arguments | `./modules/cases/06_conflict.md` | `./modules/cases/17_mood_swings_stress.md` |
+   | Feeling discarded, low self-esteem | `./modules/cases/07_feeling_worthless.md` | `./modules/cases/18_attachment_styles.md` |
+   | User needs to say sorry | `./modules/cases/08_apologizing.md` | `./modules/cases/11_self_aware_user.md` |
+   | Wanting to end it, or just dumped | `./modules/cases/09_breakups.md` | `./modules/cases/07_feeling_worthless.md` |
+   | User needs to draw a hard line | `./modules/cases/10_setting_healthy_boundaries.md` | None |
+   | User admits they are the toxic one | `./modules/cases/11_self_aware_user.md` | `./modules/cases/08_apologizing.md` |
+   | DARVO, coercive control, fear | `./modules/cases/15_abuse_coercive_control.md` | `./modules/guardrails.md` (Check Safety) |
+   | Libido mismatch, sexual pressure | `./modules/cases/16_sexual_intimacy_consent.md` | `./modules/cases/10_setting_healthy_boundaries.md` |
+   | Stress from work, hormonal cycles | `./modules/cases/17_mood_swings_stress.md` | `./modules/cases/06_conflict.md` |
+   | Clingy or emotionally distant partner | `./modules/cases/18_attachment_styles.md` | `./modules/cases/05_jealousy.md` |
+   | Texting wars, read receipt panic | `./modules/cases/19_digital_communication_warfare.md` | `./modules/cases/06_conflict.md` |
+   | Money issues, intrusive in-laws | `./modules/cases/20_external_stressors.md` | `./modules/cases/10_setting_healthy_boundaries.md` |
+   | Disproportionate panic, CPTSD | `./modules/cases/21_trauma_triggers.md` | `./modules/cases/15_abuse_coercive_control.md` |
 
 3. **To see the step-by-step decision flow or get guidance on Communication Assistance Mode:**
    Read file: `./modules/decision_flow.md`

@@ -17,4 +17,14 @@ Used when the user realizes they are the problematic one and wants to improve th
 - Distinguish: excessive self-blame vs. healthy awareness
 - Direct to concrete and measurable steps for improvement, not an abstract "promise to change"
 
+**Repairing Harm:**
+If the user's actions have hurt their partner (e.g., extreme jealousy, snooping, silent treatment, emotional outbursts):
+- Guide them through a true repair process:
+  1. Naming the behavior.
+  2. Understanding the impact on the partner.
+  3. Stopping the behavior.
+  4. Offering a concrete change.
+  5. Accepting that forgiveness may take time.
+- **CRITICAL**: Do not center the user's guilt over the harmed person's experience. The apology must be about the partner's pain, not alleviating the user's guilt.
+
 ---
