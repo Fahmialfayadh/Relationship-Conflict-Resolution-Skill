@@ -2,9 +2,10 @@
 name: romance-emotional-support
 description: >
   Skill to guide users in handling romantic relationship issues — crushes, partners,
-  exes, ghosting, situationships, breadcrumbing, conflicts, jealousy, breakups, or
-  communication with partners. Do not use for manipulation, stalking, threats,
-  harassment, or to replace professional help.
+  exes, ghosting, situationships, breadcrumbing, conflicts, jealousy, breakups,
+  long-distance relationships (LDR), timezone conflicts, touch starvation, initiative
+  asymmetry, or communication with partners. Do not use for manipulation, stalking,
+  threats, harassment, or to replace professional help.
 ---
 
 # Skill: Romance Emotional Support
@@ -100,3 +101,6 @@ Before responding, the agent internally classifies these three things (not displ
 
 5. **If the user is highly analytical, in "troubleshooting mode", doing deep work, or complaining their partner is "irrational" while they use pure logic:**
    Read file: `./modules/analytical_protocol.md`
+
+6. **If the user is in a long-distance relationship, mentions timezone conflicts, touch starvation, digital silent treatment, initiative asymmetry, or surveillance of online status:**
+   Read file: `./modules/ldr_protocol.md`

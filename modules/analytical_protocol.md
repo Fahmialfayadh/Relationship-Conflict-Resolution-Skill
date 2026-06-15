@@ -1,3 +1,9 @@
+---
+module: analytical_protocol
+priority: low
+description: "Specialized protocol for users who are in 'troubleshooting mode' or have low cognitive capacity."
+---
+
 ## Module: Protocol for Analytical Users
 
 ### When This Module Is Active

@@ -1,4 +1,4 @@
-# Romance Emotional Support - Agentic Skill
+# Relationship Conflict Resolution
 
 This repository provides an advanced prompt/skill architecture designed for AI Agents to handle romantic relationship issues and provide emotional support. It acts as the user's **eternal external emotional brain**, stepping in to process psychological nuances when the user's emotional battery is depleted and they are forced to run purely on logic.
 ---
@@ -31,6 +31,30 @@ This skill is constructed from a comprehensive foundation of:
 
 By combining evidence-based frameworks with raw, real-world relationship dynamics, the agent is equipped to handle complex modern dating issues (like situationships, breadcrumbing, and ghosting) with nuanced, grounded empathy.
 
+## Installation
+
+You can install this skill directly from GitHub using `npx skills` — no global CLI install required.
+
+### Option 1: Global Scope
+Available across **all** your projects (installs to `~/.agents/skills/`):
+```bash
+npx skills add Fahmialfayadh/relationship-conflict-resolution-skill -g
+```
+> `-g` is shorthand for `--global`
+
+### Option 2: Specific Project
+Available only within **your current project** (installs to `./.agents/skills/`):
+```bash
+npx skills add Fahmialfayadh/relationship-conflict-resolution-skill
+```
+
+### Managing the Skill
+```bash
+npx skills list                                    # List all installed skills
+npx skills update Fahmialfayadh/relationship-conflict-resolution-skill  # Update to latest version
+npx skills remove Fahmialfayadh/relationship-conflict-resolution-skill              # Uninstall
+```
+
 ## How to Use This Repository
 
 This repository offers two ways to integrate the skill depending on your architecture:
@@ -42,12 +66,29 @@ The `agent_router.md` serves as a lightweight entry point that teaches the agent
 ### 2. For Standard LLMs (Monolithic Version)
 If you just want to copy-paste the entire skill instructions into a standard LLM system prompt (like ChatGPT, Claude, etc.), use the `monolithic.md` file. It contains the complete, unabridged protocol in one file.
 
+## How to Use (ChatGPT Custom GPT)
+
+Want to deploy this as your personal Custom GPT? You have two options:
+
+### Option 1: The One-Click Solution (Recommended)
+If you don't want to mess with configurations, you can directly use the pre-configured Indonesian Custom GPT here:
+👉 **[Relationship Conflict Resolution - Custom GPT](https://chatgpt.com/g/g-6a2ff85aac2c819180fb06d0d96525e7-relationship-conflict-resolution)**
+
+### Option 2: Build It Yourself
+If you want to create your own GPT (or use it in English/other languages):
+1. Go to ChatGPT and create a new **Custom GPT**.
+2. Download the `monolithic.md` file from this repository.
+3. Upload `monolithic.md` directly to your Custom GPT's **Knowledge Base**.
+4. In the GPT's **Instructions** box, simply write: *"You are an emotional support agent. Strictly follow the rules, frameworks, and decision flows outlined in the `monolithic.md` file provided in your knowledge base."*
+5. (Optional) Disable Web Browsing and DALL-E to keep the agent strictly focused on psychological processing without hallucinations.
+
 ## Features & Modules
 
 The skill is divided into comprehensive response protocols:
-- **Frequently Occurring Cases:** Specific behavioral patterns for handling Ghosting, Breadcrumbing, Situationships, Jealousy, Breakups, etc.
+- **Frequently Occurring Cases:** Specific behavioral patterns for handling Ghosting, Breadcrumbing, Situationships, Jealousy, Breakups, LDR conflicts, etc.
 - **Communication Assistance:** Frameworks for guiding users to write their own healthy boundaries, rather than giving them copy-paste templates.
 - **Analytical Protocol:** A specialized module activated when the user is in "troubleshooting mode", doing deep work, or running purely on logic, forcing the AI to step in as the emotional processor.
+- **LDR Protocol:** A dedicated module for long-distance relationship dynamics — digital conflict resolution (6 communication patterns), touch starvation coping (sensory substitution matrix), and initiative asymmetry rebalancing (5 operational systems).
 - **Guardrails:** Strict rules to prevent the AI from assisting with manipulation, stalking, toxic behavior, or diagnosing psychological conditions.
 
 ---

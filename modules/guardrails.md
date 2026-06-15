@@ -1,3 +1,9 @@
+---
+module: guardrails
+priority: critical
+description: "Strict boundaries, prohibited behaviors, and emergency mode handling."
+---
+
 ## Guardrails
 
 ### What Is Prohibited
