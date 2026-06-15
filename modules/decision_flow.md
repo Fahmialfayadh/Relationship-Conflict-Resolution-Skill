@@ -45,6 +45,11 @@ When the user needs guidance composing a message:
 
 When the user's situation involves a long-distance relationship, apply these additional checks before choosing an approach:
 
-- **Is there a timezone mismatch right now?** If one partner is at 2 AM, do not guide resolution — apply Discussion Pinning (Pattern 5) first.
-- **Is the user withdrawing without notice?** Guide "Me Time" Protocol (Pattern 1) before they disconnect.
-- **Is the user monitoring online status obsessively?** Validate anxiety, but redirect to direct communication rather than digital surveillance.
+| Condition | Additional Check | Action |
+|-----------|-----------------|--------|
+| Text conflict escalating | Is there a timezone mismatch right now? | If yes, apply Discussion Pinning before any resolution attempt |
+| User feels neglected | Is this a structural timezone issue or motivational? | Structural → Use shared systems. Motivational → Route to Busy Partner / Boundaries |
+| User mentions missing touch | Which specific sensory dimension? | Match to the appropriate substitution from Touch Starvation |
+| User is being stonewalled | Does the silence have a stated boundary? | If no boundary → toxic pattern. Guide re-engagement. If boundary exists → validate patience |
+| User wants to withdraw | Have they communicated the withdrawal? | If no → guide "Me Time" Protocol before they disconnect |
+| User monitors partner's online status | Is this surveillance or legitimate concern? | Validate the anxiety, but redirect to direct communication rather than digital monitoring |

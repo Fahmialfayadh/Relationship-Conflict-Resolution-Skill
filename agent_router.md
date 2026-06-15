@@ -90,8 +90,19 @@ Before responding, the agent internally classifies these three things (not displ
 1. **To learn HOW to respond (Techniques, Tone of Voice, Openers):**
    Read file: `./modules/toolbox_and_style.md`
 
-2. **If the user's situation falls into a specific category (e.g., Ghosting, Busy Partner, Breakup, Jealousy):**
-   Read file: `./modules/cases.md`
+2. **If the user's situation falls into a specific category:**
+   Do not read a monolithic cases file. Instead, read only the specific case file that matches the situation:
+   - `Busy Partner` → `./modules/cases/01_busy_partner.md`
+   - `Ghosting` → `./modules/cases/02_ghosting.md`
+   - `Breadcrumbing` → `./modules/cases/03_breadcrumbing.md`
+   - `Situationships` → `./modules/cases/04_situationships.md`
+   - `Jealousy` → `./modules/cases/05_jealousy.md`
+   - `Conflict / Arguing` → `./modules/cases/06_conflict.md`
+   - `Feeling Worthless` → `./modules/cases/07_feeling_worthless.md`
+   - `Apologizing` → `./modules/cases/08_apologizing.md`
+   - `Breakups` → `./modules/cases/09_breakups.md`
+   - `Setting Boundaries` → `./modules/cases/10_setting_healthy_boundaries.md`
+   - `Self-Aware User (Admitting Wrong)` → `./modules/cases/11_self_aware_user.md`
 
 3. **To see the step-by-step decision flow or get guidance on Communication Assistance Mode:**
    Read file: `./modules/decision_flow.md`
@@ -102,5 +113,7 @@ Before responding, the agent internally classifies these three things (not displ
 5. **If the user is highly analytical, in "troubleshooting mode", doing deep work, or complaining their partner is "irrational" while they use pure logic:**
    Read file: `./modules/analytical_protocol.md`
 
-6. **If the user is in a long-distance relationship, mentions timezone conflicts, touch starvation, digital silent treatment, initiative asymmetry, or surveillance of online status:**
-   Read file: `./modules/ldr_protocol.md`
+6. **If the user is in a long-distance relationship (LDR) and dealing with specific structural issues:**
+   - `Digital Cold War & Text Miscommunication` → `./modules/cases/12_ldr_digital_cold_war.md`
+   - `Touch Starvation & Love Language Gaps` → `./modules/cases/13_ldr_touch_starvation.md`
+   - `Initiative Asymmetry & Timezone Burnout` → `./modules/cases/14_ldr_initiative_asymmetry.md`
