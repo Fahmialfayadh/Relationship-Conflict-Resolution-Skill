@@ -43,7 +43,7 @@ Anthropic's Claude 4.6 Sonnet medium (**recomended for efficiency**) or above ha
 
 4. Claude will automatically read the `skill.md` file included at the root of the repository as its primary System Prompt. This file already contains all the necessary instructions, routing matrices, and embargo rules to navigate the rest of the psychological modules accurately.
 
-### 🥈 Option 2: ChatGPT Custom GPT
+### 🥈 Option 2: ChatGPT Custom GPT (**not as good as claude, but okay**)
 **The One-Click Solution**
 If you don't want to mess with configurations, you can directly use this Custom GPT:
 👉 **[Relationship Conflict Resolution - Custom GPT](https://chatgpt.com/g/g-6a2ff85aac2c819180fb06d0d96525e7-relationship-conflict-resolution)**
