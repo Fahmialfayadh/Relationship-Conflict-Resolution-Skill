@@ -1,6 +1,6 @@
 # Relationship Conflict Resolution
 
-This repository provides an advanced prompt/skill architecture designed for AI Agents to handle romantic relationship issues and provide emotional support. It acts as the user's **eternal external emotional brain**, stepping in to process psychological nuances when the user's emotional battery is depleted and they are forced to run purely on logic.
+This repository provides an advanced skill architecture designed for AI Agents to handle romantic relationship issues and provide emotional support. It is built as an **eternal external emotional brain**, stepping in to process psychological nuances when the user's emotional battery is depleted and they are forced to run purely on logic.
 ---
 
 ### 🚨 CRITICAL HUMAN WARNING: READ BEFORE USING 🚨
@@ -26,59 +26,35 @@ This skill is designed as an **objective analytical guide**. It strictly enforce
 ## Research & Methodology
 
 This skill is constructed from a comprehensive foundation of:
+- **Expert Relationship Literature:** Extracting core principles and actionable frameworks from acclaimed guidebooks on love and couples therapy.
 - **Academic & Clinical Research:** Insights drawn from psychological research papers, studies, and articles on interpersonal dynamics.
 - **Real Human Experiences:** Aggregated patterns from human experiences shared on Reddit, relationship blogs, and forums.
 
 By combining evidence-based frameworks with raw, real-world relationship dynamics, the agent is equipped to handle complex modern dating issues (like situationships, breadcrumbing, and ghosting) with nuanced, grounded empathy.
 
-## Installation
+## Deployment Options
 
-You can install this skill directly from GitHub using `npx skills` — no global CLI install required.
+### 🥇 Option 1: Claude Projects / Claude Skills (Recommended)
+Anthropic's Claude 4.6 Sonnet medium (**recomended for efficiency**) or above handles this massive context brilliantly. 
+1. Download this entire repository as a **ZIP file**.
+2. Go to your Claude interface and navigate to the **Projects** or **Add Skill** section.
+3. Upload the `.zip` file.
+<img src="assets/claude.png" width="800" alt="Claude Interface">
 
-### Option 1: Global Scope
-Available across **all** your projects (installs to `~/.agents/skills/`):
-```bash
-npx skills add Fahmialfayadh/relationship-conflict-resolution-skill -g
-```
-> `-g` is shorthand for `--global`
+4. Claude will automatically read the `skill.md` file included at the root of the repository as its primary System Prompt. This file already contains all the necessary instructions, routing matrices, and embargo rules to navigate the rest of the psychological modules accurately.
 
-### Option 2: Specific Project
-Available only within **your current project** (installs to `./.agents/skills/`):
-```bash
-npx skills add Fahmialfayadh/relationship-conflict-resolution-skill
-```
-
-### Managing the Skill
-```bash
-npx skills list                                    # List all installed skills
-npx skills update Fahmialfayadh/relationship-conflict-resolution-skill  # Update to latest version
-npx skills remove Fahmialfayadh/relationship-conflict-resolution-skill              # Uninstall
-```
-
-## How to Use This Repository
-
-This repository offers two ways to integrate the skill depending on your architecture:
-
-### 1. For Autonomous AI Agents (Recommended)
-If you are building an AI agent that supports dynamic file reading or tool calling, point your agent to `agent_router.md`. 
-The `agent_router.md` serves as a lightweight entry point that teaches the agent how to classify the user's situation and routes it to read specific modular files inside the `/modules/` folder (e.g., specific protocols for ghosting, jealousy, or handling highly analytical users). This approach drastically saves tokens.
-
-### 2. For Standard LLMs (Monolithic Version)
-If you just want to copy-paste the entire skill instructions into a standard LLM system prompt (like ChatGPT, Claude, etc.), use the `monolithic.md` file. It contains the complete, unabridged protocol in one file.
-
-## How to Use (ChatGPT Custom GPT)
-
-Want to deploy this as your personal Custom GPT? You have two options:
-
-### Option 1: The One-Click Solution (Recommended)
-If you don't want to mess with configurations, you can directly use the pre-configured Indonesian Custom GPT here:
+### 🥈 Option 2: ChatGPT Custom GPT
+**The One-Click Solution**
+If you don't want to mess with configurations, you can directly use this Custom GPT:
 👉 **[Relationship Conflict Resolution - Custom GPT](https://chatgpt.com/g/g-6a2ff85aac2c819180fb06d0d96525e7-relationship-conflict-resolution)**
 
-### Option 2: Build It Yourself (Upload 18-File Bundle)
+**Build It Yourself (Upload 18-File Bundle)**
 If you want to create your own GPT (or use it in English/other languages):
 1. Go to ChatGPT and create a new **Custom GPT**.
 2. Download the 18 bundled files located inside the `custom_gpt_bundle/` folder in this repository.
 3. Upload all 18 files directly to your Custom GPT's **Knowledge Base**.
+<img src="assets/chat.png" width="800" alt="ChatGPT Interface">
+
 4. In the GPT's **Instructions** box, copy and paste this exact prompt:
    ```text
    Use knowledge often. You are an assistant for a user in a romantic relationship situation. Reading the knowledge base is strictly required before answering.
@@ -109,6 +85,17 @@ If you want to create your own GPT (or use it in English/other languages):
    | User needs help setting a hard boundary | `10_setting_healthy_boundaries.md` | None |
    ```
 5. (Optional) Disable Web Browsing and DALL-E to keep the agent strictly focused on psychological processing without hallucinations.
+
+### 🥉 Option 3: Autonomous AI Agents (Agentic Frameworks)
+If you are building an AI agent that supports dynamic file reading or tool calling, point your agent to `agent_router.md`. The `agent_router.md` serves as a lightweight entry point that teaches the agent how to classify the user's situation and routes it to read specific modular files inside the `/modules/` folder. This approach drastically saves tokens.
+
+You can install this skill directly from GitHub using `npx skills` — no global CLI install required.
+```bash
+npx skills add Fahmialfayadh/relationship-conflict-resolution-skill -g
+```
+
+### Option 4: Standard LLMs (Monolithic Version)
+If you just want to copy-paste the entire skill instructions into a standard LLM system prompt (like generic ChatGPT, older Claude models, etc.) without uploading files, use the `monolithic.md` file. It contains the complete, unabridged protocol in one file.
 
 ## Features & Modules
 
