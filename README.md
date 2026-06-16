@@ -39,7 +39,7 @@ Anthropic's Claude 4.6 Sonnet medium (**recomended for efficiency**) or above ha
 1. Download this entire repository as a **ZIP file**.
 2. Go to your Claude interface and navigate to the **Projects** or **Add Skill** section.
 3. Upload the `.zip` file.
-<img src="assets/claude.png" width="800" alt="Claude Interface">
+<img src="./assets/claude_installation.gif" width="800" alt="Claude Interface">
 
 4. Claude will automatically read the `skill.md` file included at the root of the repository as its primary System Prompt. This file already contains all the necessary instructions, routing matrices, and embargo rules to navigate the rest of the psychological modules accurately.
 
@@ -53,7 +53,7 @@ If you want to create your own GPT (or use it in English/other languages):
 1. Go to ChatGPT and create a new **Custom GPT**.
 2. Download the 18 bundled files located inside the `custom_gpt_bundle/` folder in this repository.
 3. Upload all 18 files directly to your Custom GPT's **Knowledge Base**.
-<img src="assets/chat.png" width="800" alt="ChatGPT Interface">
+<img src="./assets/chat.png" width="800" alt="ChatGPT Interface">
 
 4. In the GPT's **Instructions** box, copy and paste this exact prompt:
    ```text
